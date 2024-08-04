@@ -1,0 +1,9 @@
+MOV A, #45H 
+ANL A, #0FH 
+ORL A, #30H 
+MOV P0, A
+MOV A, #45H 
+ANL A, #0F0H 
+SWAP A 
+ORL A, #30H 
+MOV P1, A
