@@ -1,4 +1,4 @@
-; To count number of 1’s in a given 8 bit number stored in location 40h and 
+; To count number of 1â€™s in a given 8 bit number stored in location 40h and 
 display the result on port-0.
 MOV R0, #40H
 MOV R1, #8H
